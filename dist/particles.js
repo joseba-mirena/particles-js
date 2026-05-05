@@ -2,10 +2,10 @@
  * Particles - Lightweight Canvas Animation Library.
  * 
  * @package Particles JS
- * @version v1.0.0
+ * @version v1.2.0
  * @copyright 2026 JosebaMirena.com
  * @license MIT
- *          https://www.josebamirena.com/media/assets/particles/1.0.0/LICENSE
+ *          https://www.josebamirena.com/media/assets/particles/1.2.0/LICENSE
  * @author florin
  * 
  * MAIN FEATURES:
@@ -34,7 +34,7 @@
  *    - Connect nearby particles with lines
  *    - Responsive (auto-resizes with window)
  * 
- * https://www.josebamirena.com/media/assets/particles/1.0.0/README
+ * https://www.josebamirena.com/media/assets/particles/1.2.0/README
 */
 
 const Particles = (function() {
@@ -52,6 +52,8 @@ const Particles = (function() {
 
     // Cache for pre-rendered star shapes (size + color -> canvas)
     const starCache = new Map();
+
+    const isMobile = () => /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
     function getColor(index = 0) {
         if (config.useRainbow) {
@@ -430,6 +432,8 @@ const Particles = (function() {
 
         config = Object.assign({}, defaults, userConfig);
 
+        if(isMobile()) config.count = Math.floor(config.count / 2);
+
         container = document.getElementById(config.container);
         if (!container) return console.error('[Particles] Container not found');
 
@@ -547,7 +551,7 @@ const Particles = (function() {
             }
         }
 
-        window.addEventListener("resize", resize);
+        if (!isMobile()) window.addEventListener("resize", resize);
         container.addEventListener("mousemove", updateMouse);
         container.addEventListener("touchmove", updateMouse, { passive: true });
         container.addEventListener("mouseout", () => mouse.x = mouse.y = null);

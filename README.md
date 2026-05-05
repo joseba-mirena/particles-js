@@ -4,12 +4,12 @@
 
 
 * **Package:** Particles JS\
-* **Version:** v1.0.0\
+* **Version:** v1.2.0\
 * **Copyright:** 2026 [`JosebaMirena.com`](https://www.josebamirena.com)\
 * **License:** [`MIT License`](./LICENSE)\
 * **Author:** Joseba Mirena ([@joseba-mirena](https://github.com/joseba-mirena))
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/joseba-mirena/particles-js)
+[![Version](https://img.shields.io/badge/version-1.2.0-blue)](https://github.com/joseba-mirena/particles-js)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![Size](https://img.shields.io/badge/size-11.7%20kB-lightgrey)](https://github.com/joseba-mirena/particles-js)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-View-ff2c6e)](https://www.josebamirena.com/freebies-tools-resources/particles-javascript)
@@ -52,8 +52,8 @@ Add the minified version before the closing `</body>` tag:
 
 ```html
 <script 
-    src="https://opensource.josebamirena.com/particles/1.0.0/dist/particles.min.js" 
-    integrity="sha384-ovQETGtGwaVATmqCOoMNIo1bur9NDv5+pG2BzxOqa5/M7BvYh3XhYjG607gXu/7D" 
+    src="https://opensource.josebamirena.com/particles/1.2.0/dist/particles.min.js" 
+    integrity="sha384-tG/8zt0wcccO1Xg2U8k7suBG83af/ix8L8zBeSqRbVYnefkvAY2mrYnAMHUVlIIm" 
     crossorigin="anonymous">
 </script>
 ```
@@ -234,6 +234,16 @@ Add the minified version before the closing `</body>` tag:
     });
 </script>
 ```
+
+## 📝 Changelog from 1.0.0
+
+### v1.2.0 - Performance release
+
+🕊️ Minified size 11.8 kB.
+
+#### Updated
+- Reduce mobile particles number
+- Improve performance
 
 
 ## 🎯 Live Demo
