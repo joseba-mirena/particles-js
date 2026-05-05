@@ -11,7 +11,7 @@
 
 [![Version](https://img.shields.io/badge/version-1.2.0-blue)](https://github.com/joseba-mirena/particles-js)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
-[![Size](https://img.shields.io/badge/size-11.7%20kB-lightgrey)](https://github.com/joseba-mirena/particles-js)
+[![Size](https://img.shields.io/badge/size-11.8%20kB-lightgrey)](https://github.com/joseba-mirena/particles-js)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-View-ff2c6e)](https://www.josebamirena.com/freebies-tools-resources/particles-javascript)
 
 A simple, customizable particle system for web backgrounds, effects, and interactions.
