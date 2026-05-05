@@ -3,10 +3,10 @@
 *Lightweight Canvas Animation Library.*
 
 
-* **Package:** Particles JS\
-* **Version:** v1.2.0\
-* **Copyright:** 2026 [`JosebaMirena.com`](https://www.josebamirena.com)\
-* **License:** [`MIT License`](./LICENSE)\
+* **Package:** Particles JS
+* **Version:** v1.2.0
+* **Copyright:** 2026 [`JosebaMirena.com`](https://www.josebamirena.com)
+* **License:** [`MIT License`](./LICENSE)
 * **Author:** Joseba Mirena ([@joseba-mirena](https://github.com/joseba-mirena))
 
 [![Version](https://img.shields.io/badge/version-1.2.0-blue)](https://github.com/joseba-mirena/particles-js)
